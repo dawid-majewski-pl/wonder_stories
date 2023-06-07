@@ -49,10 +49,23 @@
                 </div>
             </div>
         </section>
-        <section id="mail">
-            <h2>Napisz do mnie</h2>
+        <section class="mail" id="mail">
+            <h2 class="mail__heading">Napisz do mnie</h2>
+            <div>
+                <form class="mail__form">
+                    <label class="mail__label">Temat</label>
+                    <input class="mail__input" type="text" placeholder="Wpisz temat wiadomości">
+                    <label class="mail__label">Treść</label>
+                    <textarea class="mail__textarea" placeholder="Napisz wiadomość"></textarea>
+                    <label class="mail__label">E-mail</label>
+                    <input class="mail__input" type="email" placeholder="Wpisz swój e-mail">
+                    <label class="mail__label">Numer telefonu</label>
+                    <input class="mail__input" type="tel" placeholder="Podaj swój numer telefonu">
+                    <input class="mail__input mail__input--background" type="submit">
+                </form>
+            </div>
         </section>
-        <footer id="contact">
+        <footer class="contact" id="contact">
             <h2>Wonder Stories</h2>
             <section>
                 <p>Facebook</p>
