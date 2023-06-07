@@ -6,8 +6,22 @@ main {
 }
 
 .cover {
-  height: fit-content;
+  min-height: 100vh;
   position: relative;
+  background-image: url("img/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: 44%;
+  background-size: cover;
+}
+@media ((min-width: 1024px) and (max-width: 1280px)) {
+  .cover {
+    background-position: 67%;
+  }
+}
+@media (min-width: 1280px) {
+  .cover {
+    background-position: 77%;
+  }
 }
 .cover__heading {
   position: absolute;
@@ -15,22 +29,23 @@ main {
   left: 24px;
 }
 .cover__photo {
-  width: 100%;
+  height: 100vh;
 }
 .cover__logo {
   width: 32vw;
+  min-width: 120px;
 }
-@media ((min-width: 1024px) and (max-width: 1280px)) {
+@media ((min-width: 1024px) and (max-width: 1560px)) {
   .cover__logo {
-    width: 328px;
+    width: 312px;
     padding-top: 16px;
     padding-left: 16px;
     transition: all 0.2s;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1560px) {
   .cover__logo {
-    width: 424px;
+    width: 420px;
     padding-top: 24px;
     padding-left: 24px;
     transition: all 0.2s;
