@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
 
-$basicfontcolor: rgb(34, 34, 34);
+$basicfontcolor: rgb(68, 68, 68);
 
 $mobilesmall: 640px;
 $mobilelarge: 768px;
 $desktopsmall: 1024px;
 $desktoplarge: 1280px;
 
+// html {
+//     // line-height: 0.73;
+//   }
+
 main {
     font-family: 'Inria Serif', serif;
     color: $basicfontcolor;
+    background-color: rgb(247, 234, 218);
+
 }
 
 .cover {
+    height:fit-content;
     position: relative;
     &__heading {
     position: absolute;
@@ -50,4 +57,40 @@ main {
 .navigation {
     display: none;
     color: white;
+}
+
+.about {
+    padding: 0px 16px;
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        max-width: 480px;
+        margin: auto;
+        padding-bottom: 32px;
+    }
+    &__heading {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 32px;
+        font-size: 38px;
+    }
+    &__text {
+        text-align: center;
+        line-height: 32px;
+        font-size: 20px;
+        margin: 0;
+        font-weight: 700;
+    }
+    &__photo {
+        width: 200px;
+        border-radius: 100%;
+        margin-bottom: 24px;
+    }
+}
+
+.album {
+    background-color: white;
 }
