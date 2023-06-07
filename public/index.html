@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Wonder Stories</title>
 </head>
 <body>
     <main>
-        <header id="cover">
-            <nav>
+        <header class="cover" id="cover">
+            <h1 class="cover__heading"><img class="cover__logo" src="img/logo.png"></h1>
+            <img class="cover__photo" src="img/cover.jpg">
+            <p class="cover__hamburger">=</p>
+            <nav class="navigation">
                 <ul>
                     <li>Home</li>
                     <li>O mnie</li>
@@ -18,7 +23,6 @@
                     <li>Kontakt</li>
                 </ul>
             </nav>
-            <h1>Wonder Stories</h1>
         </header>
         <section id="about">
             <h2>O mnie</h2>

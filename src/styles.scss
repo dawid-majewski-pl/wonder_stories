@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+
+$basicfontcolor: rgb(34, 34, 34);
+
+$mobilesmall: 640px;
+$mobilelarge: 768px;
+$desktopsmall: 1024px;
+$desktoplarge: 1280px;
+
+main {
+    font-family: 'Inria Serif', serif;
+    color: $basicfontcolor;
+}
+
+.cover {
+    position: relative;
+    &__heading {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    }
+    &__photo {
+    width: 100%;
+    }
+    &__logo {
+    width: 32vw;
+        @media ((min-width: $desktopsmall) and (max-width: $desktoplarge)) {
+            width: 328px;
+            padding-top: 16px;
+            padding-left: 16px;
+            transition: all .2s;
+
+        }
+        @media (min-width: $desktoplarge) {
+            width: 424px;
+            padding-top: 24px;
+            padding-left: 24px;
+            transition: all .2s;
+        }
+    }
+    &__hamburger {
+    position: absolute;
+    right: 24px;
+    top: -40px;
+    color: white;
+    font-size: 48px;
+    }
+}
+
+.navigation {
+    display: none;
+    color: white;
+}

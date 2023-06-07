@@ -3,7 +3,6 @@
   "description": "\"# wonder_stories\"",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "sass-watch": "sass --watch src/styles.scss public/styles.css"
   },

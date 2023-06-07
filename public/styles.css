@@ -1,3 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap");
+main {
+  font-family: "Inria Serif", serif;
+  color: rgb(34, 34, 34);
+}
 
+.cover {
+  position: relative;
+}
+.cover__heading {
+  position: absolute;
+  top: 0;
+  left: 24px;
+}
+.cover__photo {
+  width: 100%;
+}
+.cover__logo {
+  width: 32vw;
+}
+@media ((min-width: 1024px) and (max-width: 1280px)) {
+  .cover__logo {
+    width: 328px;
+    padding-top: 16px;
+    padding-left: 16px;
+    transition: all 0.2s;
+  }
+}
+@media (min-width: 1280px) {
+  .cover__logo {
+    width: 424px;
+    padding-top: 24px;
+    padding-left: 24px;
+    transition: all 0.2s;
+  }
+}
+.cover__hamburger {
+  position: absolute;
+  right: 24px;
+  top: -40px;
+  color: white;
+  font-size: 48px;
+}
+
+.navigation {
+  display: none;
+  color: white;
+}
 
 /*# sourceMappingURL=styles.css.map */
