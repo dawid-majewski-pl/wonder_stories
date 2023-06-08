@@ -203,5 +203,29 @@ main {
 }
 
 .contact {
-    background-color: #1EA896;
+    background-color: #693c18;
+    display: grid;
+    padding: 32px 16px;
+    justify-items: center;
+    &__logo {
+        width: 240px;
+        padding-bottom: 32px;
+    }
+    &__socials {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        padding-bottom: 32px;
+    }
+    &__icon {
+        color: rgb(247, 234, 218);
+        width: 32px;
+        height: 32px;
+    }
+    &__text {
+        color: rgb(247, 234, 218);
+    }
+    &__link {
+        color: rgb(247, 234, 218);
+    }
 }
