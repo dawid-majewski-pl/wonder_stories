@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 main {
-  font-family: "Catamaran", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: rgb(68, 68, 68);
-  background-color: rgb(247, 234, 218);
+  background-color: rgb(245, 240, 234);
 }
 
 .cover {
@@ -78,17 +78,15 @@ main {
 }
 .about__heading {
   text-align: center;
-  text-transform: uppercase;
   margin: 0;
   padding: 32px;
   font-size: 38px;
 }
 .about__text {
-  text-align: center;
+  text-align: justify;
   line-height: 32px;
   font-size: 20px;
   margin: 0;
-  font-weight: 700;
 }
 .about__text--red {
   color: red;
@@ -106,7 +104,6 @@ main {
 }
 .album__heading {
   text-align: center;
-  text-transform: uppercase;
   margin: 0;
   padding: 32px;
   font-size: 38px;
@@ -145,7 +142,6 @@ main {
 }
 .mail__heading {
   text-align: center;
-  text-transform: uppercase;
   margin: 0;
   padding: 32px;
   font-size: 38px;
@@ -161,25 +157,22 @@ main {
 .mail__label {
   padding-top: 8px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 .mail__input {
   padding: 8px;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 24px;
-  border-bottom: 2px rgb(245, 227, 204) solid;
-  outline-color: rgb(252, 212, 139);
+  border-bottom: 1px rgb(245, 227, 204) solid;
+  outline-color: rgb(243, 225, 192);
 }
 .mail__input--background {
   cursor: pointer;
-  background-color: rgb(255, 221, 159);
+  background-color: #81c784;
   transition: all 0.3s;
 }
 .mail__input--background:hover {
-  background-color: #1EA896;
+  background-color: #5ea561;
 }
 .mail__textarea {
   min-height: 240px;
@@ -191,14 +184,12 @@ main {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 24px;
-  border-bottom: 2px rgb(245, 227, 204) solid;
-  outline-color: rgb(252, 212, 139);
+  border-bottom: 1px rgb(255, 247, 237) solid;
+  outline-color: rgb(243, 225, 192);
 }
 
 .contact {
-  background-color: #693c18;
+  background-color: #000000;
   display: grid;
   padding: 32px 16px;
   justify-items: center;
