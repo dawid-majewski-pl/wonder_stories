@@ -53,14 +53,14 @@
             <h2 class="mail__heading">Napisz do mnie</h2>
             <div>
                 <form class="mail__form">
-                    <label class="mail__label">Temat</label>
-                    <input class="mail__input" type="text" placeholder="Wpisz temat wiadomości">
-                    <label class="mail__label">Treść</label>
-                    <textarea class="mail__textarea" placeholder="Napisz wiadomość"></textarea>
-                    <label class="mail__label">E-mail</label>
-                    <input class="mail__input" type="email" placeholder="Wpisz swój e-mail">
-                    <label class="mail__label">Numer telefonu</label>
-                    <input class="mail__input" type="tel" placeholder="Podaj swój numer telefonu">
+                    <label class="mail__label" for="title">Temat</label>
+                    <input class="mail__input" type="text" name="title" id="title" placeholder="Wpisz temat wiadomości">
+                    <label class="mail__label" for="message">Treść</label>
+                    <textarea class="mail__textarea" name="message" id="message" placeholder="Napisz wiadomość"></textarea>
+                    <label class="mail__label" for="email">E-mail</label>
+                    <input class="mail__input" type="email" title="email" id="email" placeholder="Wpisz swój e-mail">
+                    <label class="mail__label" for="number">Numer telefonu</label>
+                    <input class="mail__input" type="tel" title="number" id="number" placeholder="Podaj swój numer telefonu">
                     <input class="mail__input mail__input--background" type="submit">
                 </form>
             </div>

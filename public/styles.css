@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
 main {
-  font-family: "Inria Serif", serif;
+  font-family: "Catamaran", sans-serif;
   color: rgb(68, 68, 68);
   background-color: rgb(247, 234, 218);
 }
