@@ -199,7 +199,7 @@ main {
     padding: 32px 16px;
     justify-items: center;
     &__logo {
-        width: 240px;
+        width: 180px;
         padding-bottom: 32px;
     }
     &__socials {
@@ -209,14 +209,33 @@ main {
         padding-bottom: 32px;
     }
     &__icon {
-        color: rgb(247, 234, 218);
+        color: rgb(255, 255, 255);
         width: 32px;
         height: 32px;
     }
+    &__flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 24px;
+    }
     &__text {
-        color: rgb(247, 234, 218);
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        margin: 8px 0;
+        @media (min-width: $mobilesmall) {
+            font-size: 16px;
+        }
     }
     &__link {
-        color: rgb(247, 234, 218);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 12px;
+        @media (min-width: $mobilesmall) {
+            font-size: 16px;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }

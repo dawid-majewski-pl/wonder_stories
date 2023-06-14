@@ -195,7 +195,7 @@ main {
   justify-items: center;
 }
 .contact__logo {
-  width: 240px;
+  width: 180px;
   padding-bottom: 32px;
 }
 .contact__socials {
@@ -205,15 +205,38 @@ main {
   padding-bottom: 32px;
 }
 .contact__icon {
-  color: rgb(247, 234, 218);
+  color: rgb(255, 255, 255);
   width: 32px;
   height: 32px;
 }
+.contact__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+}
 .contact__text {
-  color: rgb(247, 234, 218);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  margin: 8px 0;
+}
+@media (min-width: 640px) {
+  .contact__text {
+    font-size: 16px;
+  }
 }
 .contact__link {
-  color: rgb(247, 234, 218);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 12px;
+}
+@media (min-width: 640px) {
+  .contact__link {
+    font-size: 16px;
+  }
+}
+.contact__link:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
