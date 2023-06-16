@@ -130,11 +130,20 @@ main {
 .navigation {
   display: none;
   color: white;
+  transition: 0.4s;
+  padding: 24px 48px;
+}
+.navigation--sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 8px 48px;
+  width: 100%;
+  background-color: black;
 }
 @media (min-width: 640px) {
   .navigation {
     display: block;
-    padding: 24px 24px;
     font-size: 12px;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
   }
