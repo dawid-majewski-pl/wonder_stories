@@ -137,16 +137,32 @@ main {
   position: fixed;
   top: 0;
   right: 0;
-  padding: 8px 48px;
-  width: 100%;
+  padding: 0px 48px;
+  width: calc(100% - 96px);
   background-color: black;
 }
 @media (min-width: 640px) {
   .navigation {
-    display: block;
+    display: grid;
+    grid-template-columns: 8% 92%;
+    align-items: center;
     font-size: 12px;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
   }
+}
+.navigation__heading {
+  margin: 0;
+  height: fit-content;
+}
+.navigation__logo {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  margin-top: 4px;
+  transition: all 0.4s;
+}
+.navigation__logo--visible {
+  opacity: 1;
 }
 .navigation__list {
   display: flex;
