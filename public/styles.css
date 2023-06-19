@@ -232,7 +232,7 @@ main {
 .mobile-navigation__link:hover {
   color: rgb(224, 206, 177);
 }
-@media (max-height: 600px) {
+@media ((max-height: 600px) and (max-width: 1024px)) {
   .mobile-navigation {
     display: grid;
     justify-items: center;

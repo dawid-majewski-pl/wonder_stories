@@ -228,7 +228,7 @@ main {
             color:rgb(224, 206, 177);
         }
     }
-    @media (max-height: 600px) {
+    @media ((max-height: 600px) and (max-width: $desktopsmall)) {
         display: grid;
         justify-items: center;
         width: calc(100% - 48px);
