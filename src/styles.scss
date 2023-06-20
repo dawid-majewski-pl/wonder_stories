@@ -199,7 +199,6 @@ main {
     visibility: hidden;
     transform: translate(-100%);
     transition: .7s;
-
     @media (min-width: $desktopsmall) {
         display: none;
     }
@@ -244,12 +243,11 @@ main {
     }
 }
 
-.cover__hamburger-toggler:checked ~ .mobile-navigation {
+.cover__hamburger-toggler:checked ~ label > .mobile-navigation {
     visibility: visible;
     transform: translate(0);
     transition: .6s;
 }
-
 
 .about {
     padding: 32px 16px;

@@ -249,7 +249,7 @@ main {
   }
 }
 
-.cover__hamburger-toggler:checked ~ .mobile-navigation {
+.cover__hamburger-toggler:checked ~ label > .mobile-navigation {
   visibility: visible;
   transform: translate(0);
   transition: 0.6s;
